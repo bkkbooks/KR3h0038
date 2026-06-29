@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR3h0038/v1
+canonical_location: https://kanripo.org/bkk/KR3h0038/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 衍極
+  date: '2015-08-24 23:14:57.142920'
+  source:
+    repository: kanripo
+    path: KR3h0038
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3h0038_000.yaml, hash: 'sha256:ec155e07d027137f43fa0acdc591d5bb8c6064390d778884672d5ffefce2c21e'}
+  - {seq: 1, filename: KR3h0038_001.yaml, hash: 'sha256:fcafabc890c758070be78409e33ecceff4ac9272092d6c33e61e743d9b573e7c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3h0038_000.markers.yaml, hash: 'sha256:9a7fe08dbdc05e1343c5a31740c9ae72584d945f54df19321af5dbdd51e84ad6'}
+  - {seq: 1, role: markers, filename: assets/KR3h0038_001.markers.yaml, hash: 'sha256:fcd1001d9088612ff555a2633e93b78356aa6d72a11b871625350f96112afb2a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3h0038_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 282
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3h0038_WYG_000-3a
+    span:
+    - body
+    - 282
+    - 557
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3h0038_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 14378
+  label: 卷上
+  type: section
+  level: 1
+hash: sha256:d2d897cdf554fe17f6f00503834729650219cb70916c27ff19996bbcd9c6bfe8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
